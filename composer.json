@@ -1,0 +1,31 @@
+{
+  "name": "mohrezmahdavi/UnitConverter",
+  "description": "a package for unit converter",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mohammadreza Mahdavi",
+      "email": "mrmahdavi38@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mohrez\\UnitConverter\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mohrez\\UnitConverter\\Provider\\UnitConverter"
+      ],
+      "aliases": {
+        "BigBlueButton": "Mohrez\\UnitConverter\\Facade\\UnitConverter"
+      }
+    }
+  }
+}

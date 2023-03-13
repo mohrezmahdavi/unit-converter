@@ -1,9 +1,9 @@
 <?php
 
-namespace Mohrez\UnitConverter\Provider;
+namespace Mohrezmahdavi\UnitConverter\Provider;
 
 use Illuminate\Support\ServiceProvider;
-use Mohrez\UnitConverter\UnitConverter;
+use Mohrezmahdavi\UnitConverter\UnitConverter;
 
 class UnitConverterProvider extends ServiceProvider
 {

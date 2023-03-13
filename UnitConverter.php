@@ -1,9 +1,9 @@
 <?php
 
-namespace Mohrez\UnitConverter;
+namespace Mohrezmahdavi\UnitConverter;
 
-use Mohrez\UnitConverter\Traits\Length\LengthTrait;
-use Mohrez\UnitConverter\Traits\Temperature\TemperatureTrait;
+use Mohrezmahdavi\UnitConverter\Traits\Length\LengthTrait;
+use Mohrezmahdavi\UnitConverter\Traits\Temperature\TemperatureTrait;
 
 class UnitConverter
 {

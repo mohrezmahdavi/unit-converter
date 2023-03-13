@@ -1,6 +1,6 @@
 <?php
 
-namespace Mohrez\UnitConverter\Traits\Length;
+namespace Mohrezmahdavi\UnitConverter\Traits\Length;
 
 trait KilometerTo
 {

@@ -1,5 +1,5 @@
 {
-  "name": "mohrezmahdavi/UnitConverter",
+  "name": "mohrezmahdavi/unit-converter",
   "description": "a package for unit converter",
   "minimum-stability": "dev",
   "license": "MIT",
@@ -24,10 +24,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Mohrez\\UnitConverter\\Provider\\UnitConverterProvider"
+        "Mohrezmahdavi\\UnitConverter\\Provider\\UnitConverterProvider"
       ],
       "aliases": {
-        "BigBlueButton": "Mohrez\\UnitConverter\\Facade\\UnitConverter"
+        "UnitConverter": "Mohrezmahdavi\\UnitConverter\\Facade\\UnitConverter"
       }
     }
   }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mohrez\UnitConverter\Traits\Temperature;
+namespace Mohrezmahdavi\UnitConverter\Traits\Temperature;
 
 trait FahrenheitTo
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mohrez\UnitConverter\Facade;
+namespace Mohrezmahdavi\UnitConverter\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

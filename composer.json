@@ -21,7 +21,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Mohrez\\UnitConverter\\Provider\\UnitConverter"
+        "Mohrez\\UnitConverter\\Provider\\UnitConverterProvider"
       ],
       "aliases": {
         "BigBlueButton": "Mohrez\\UnitConverter\\Facade\\UnitConverter"

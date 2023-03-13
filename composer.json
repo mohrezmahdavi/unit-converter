@@ -1,8 +1,8 @@
 {
   "name": "mohrezmahdavi/UnitConverter",
   "description": "a package for unit converter",
-  "minimum-stability": "stable",
-  "license": "proprietary",
+  "minimum-stability": "dev",
+  "license": "MIT",
   "authors": [
     {
       "name": "Mohammadreza Mahdavi",
@@ -12,7 +12,10 @@
   "autoload": {
     "psr-4": {
       "Mohrez\\UnitConverter\\": "src/"
-    }
+    },
+    "files": [
+      "src/Helper/helpers.php"
+    ]
   },
   "require": {
     "php": "^8.0",
